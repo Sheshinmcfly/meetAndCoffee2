@@ -1,0 +1,55 @@
+/* Html */
+html {
+    scroll-behavior: auto !important;
+}
+
+/* Body */
+body {
+    font-family: 'Open sans', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #000F08;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
+.navbar-brand {
+    fill: #FFFFFF;
+    width: 5vh;
+}
+
+.navbar-nav {
+    width: -webkit-fill-available;
+}
+
+.nav-item {
+    margin-inline: 1%;
+}
+
+
+/* Hero section */
+#Hero-section {
+    background-image: url(../img/bg-hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    position: relative;
+    top: 6.5vh;
+    margin-bottom: 6.5;
+}
+
+#Hero-section div {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 3.25rem;
+    text-shadow: 0px 3px 6px #000000;
+}
+
+#Hero-section h1 {
+    font-weight: 800;
+}
